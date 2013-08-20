@@ -1,0 +1,53 @@
+p {
+	font-size: 12;
+	display: inline;
+}
+
+#up {
+	margin-left: 20px;
+}
+
+#infoStat {
+	display: inline-block;
+	min-width: 100px;
+}
+
+#infoControl {
+	display: inline-block;
+}
+
+#content {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#cpu {
+	float: left;
+	margin-right: 20px;
+	background-color: #DFFFFF;
+	padding: 5px 5px 5px 5px;
+	width: 90px;
+	height: 60px;
+}
+
+#memory {
+	float: left;
+	background-color: #DFFFFF;
+	padding: 5px 5px 5px 5px;
+	height: 60px;
+}
+
+#chart {
+	float: left;
+	margin-left: 10px;
+}
+
+#title {
+	font-size: 16;
+}
+
+#connect {
+	height: 20px;
+	font-size: 12;
+}

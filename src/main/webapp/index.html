@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Web Sockets POC</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="js/image_encode.js" type="text/javascript"> </script>
+<script src="js/sockets.js" type="text/javascript"> </script>
+</head>
+<body>
+	<div id="websock">
+		<div id="up">
+			<p id="title">WebSockets POC</p>
+			<br /> <br />
+			<div id="info">
+				<div id="infoStat">
+					<p>Status:</p>
+					<p id="status">disconnected</p>
+				</div>
+				<div id="infoControl">
+					<input id='connect' class='button' type='submit' name='Connect'
+						onclick="WebSocketString();WebSocketBinary();" value='Connect' />
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div>
+				<div id="cpu">
+					<p class="label">Used CPU:</p>
+					<p id="usedCpu">0 %</p>
+					<br />
+					<p class="label">Idle CPU:</p>
+					<p id="idleCpu">0 %</p>
+					<br />
+				</div>
+				<div id="memory">
+					<p class="label">Free Memory:</p>
+					<p id="freeMem">0 Mb</p>
+					<br />
+					<p class="label">Used Memory:</p>
+					<p id="usedMem">0 Mb</p>
+					<br />
+					<p class="label">Total Memory:</p>
+					<p id="totalMem">0 Mb</p>
+				</div>
+			</div>
+			<div></div>
+			<div id="chart">
+				<img id="chartImg" />
+			</div>
+		</div>
+		<br />
+	</div>
+</body>
+</html>
